@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template lang="pug">
-  div this is home
+  div {{ $t("welcome") }}
 </template>
 
 <style lang="scss" scoped></style>
