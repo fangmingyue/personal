@@ -1,17 +1,9 @@
-<script setup lang="ts">
-import { ref } from "vue";
-import { useI18n } from 'vue-i18n';
-import { LANGUAGE } from "@/config/config.ts";
+<script setup lang='ts'>
 
 // !資料 --------------------------------------------------------------------------------------------
-const value = ref('tw')
+// const props = defineProps({}); definePageMeta({});
 
-const { locale } = useI18n();
 // !接收事件 -----------------------------------------------------------------------------------------
-// 切換語系
-const langChange = (lang: string) => {
-  locale.value = lang;
-} 
 
 // !流程 --------------------------------------------------------------------------------------------
 
@@ -27,29 +19,9 @@ const langChange = (lang: string) => {
 
 // !Ref 輸出 ----------------------------------------------------------------------------------------
 // defineExpose({ ... })
+ 
 </script>
 
-<template lang="pug">
-  #Header
-    .container
-      div(class="flex justify-between items-center h-full")
-        img.logo(src="/img/logo.svg" alt="logo")
-        div(class="flex items-center")
-          el-select( v-model="value" placeholder="Select" size="small" style="width: 100px" @change="langChange(value)")
-            el-option(v-for="item in LANGUAGE" :key="item.value" :label="item.label" :value="item.value") {{item.label}}
-</template>
+<template lang='pug'></template>
 
-<style lang="scss" scoped>
-#Header {
-  background: var(--primary-500);
-  height: 2.5rem;
-  .logo{
-    display: block;
-    width: 100%;
-    max-width: 100px;
-    padding:12px;
-    background: var(--bg);
-
-  }
-}
-</style>
+<style lang='scss' scoped></style>

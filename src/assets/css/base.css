@@ -1,13 +1,13 @@
 :root {
-  --primary-100: #DED4AF;
-  --primary-200: #EFEAD7;
-  --primary-300: #8A762D;
-  --primary-400: #AD9438;
-  --primary-500: #BDA960;
-  --primary-600: #BDA960;
-  --primary-700: #BDA960;
-  --primary-800: #BDA960;
-  --primary-900: #BDA960;
+  --primary-100: #e6f2ff; /* 浅蓝 */
+  --primary-200: #cce5ff; /* 更浅 */
+  --primary-300: #99cbff; /* 略浅 */
+  --primary-400: #66b1ff; /* 接近中间值的浅色 */
+  --primary-500: #409EFF; /* 原始主色 */
+  --primary-600: #337ecc; /* 略深 */
+  --primary-700: #2a64a6; /* 更深 */
+  --primary-800: #204a80; /* 接近深蓝 */
+  --primary-900: #163359; /* 深蓝 */
 
   --secondary-100: #5A4015;
   --secondary-200: #876020;
@@ -31,5 +31,5 @@
   
   --error: #D90000;
   --t-gray: #F8F8F9;
-  --bg: #F7F4EB;
+  --bg: #f5f5f5;
 }

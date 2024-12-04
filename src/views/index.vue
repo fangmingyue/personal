@@ -23,7 +23,7 @@
 
 <template lang="pug">
   #Home
-    div index
+    div {{ $t("welcome")}}
 </template> 
 
 <style lang="scss" scoped></style>
