@@ -1,7 +1,9 @@
 <script setup lang="ts">
-import { ref } from "vue";
+import { ref, onMounted } from "vue";
 import { useI18n } from 'vue-i18n';
 import { LANGUAGE } from "@/config/config.ts";
+import { Storage } from "@/utils/storage.ts";
+import { Icon } from '@iconify/vue';
 
 // !資料 --------------------------------------------------------------------------------------------
 const value = ref('tw')
@@ -11,6 +13,7 @@ const { locale } = useI18n();
 // 切換語系
 const langChange = (lang: string) => {
   locale.value = lang;
+  Storage.set('lang', lang);
 } 
 
 // !流程 --------------------------------------------------------------------------------------------
@@ -20,7 +23,10 @@ const langChange = (lang: string) => {
 // !Api ---------------------------------------------------------------------------------------------
 
 // !生命週期 -----------------------------------------------------------------------------------------
-// onMounted(()=>{});
+onMounted(()=>{
+  locale.value = Storage.get('lang') || 'tw';
+  value.value = Storage.get('lang') || 'tw';
+});
 
 // !對外事件 -----------------------------------------------------------------------------------------
 // const emit = defineEmits(['update:modelValue','on-change']);
@@ -33,10 +39,12 @@ const langChange = (lang: string) => {
   #Header
     .container
       div(class="flex justify-between items-center h-full")
-        img.logo(src="/img/logo.svg" alt="logo")
+        router-link(to="/")
+          img.logo(src="/img/logo.svg" alt="logo")
         div(class="flex items-center")
           el-select( v-model="value" placeholder="Select" size="small" style="width: 100px" @change="langChange(value)")
             el-option(v-for="item in LANGUAGE" :key="item.value" :label="item.label" :value="item.value") {{item.label}}
+          Icon(icon="ic:baseline-reorder" class="hidden text-4xl ml-2 text-t-white md:block")
 </template>
 
 <style lang="scss" scoped>

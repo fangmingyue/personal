@@ -79,7 +79,7 @@
 
 // 自定義RWD
 @mixin xl {
-  @media (max-width: 1536px) {
+  @media (max-width: 1440px) {
     @content;
   }
 }

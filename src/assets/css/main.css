@@ -9,3 +9,19 @@
   margin:0 auto;
   padding:0 20px;
 }
+
+.wrap{
+  width: 90vw;
+  height: calc(100vh - 110px );
+  border-radius: 12px;
+  overflow-y: auto;
+  @media(max-width:1440px){
+    width:85vw;
+  }
+  @media(max-width:1024px){
+    width:80vw;
+  }
+  @media(max-width:768px){
+    width:100%;
+  }
+}

@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup lang='ts'>
 
 // !資料 --------------------------------------------------------------------------------------------
 // const props = defineProps({}); definePageMeta({});
@@ -22,23 +22,13 @@
 
 </script>
 
-<template lang="pug">
-  #Footer
-    .container
-      .copyright Copyright © 2024 Rian. All rights reserved.
+<template lang='pug'>
+  #Cooperate
+    div this is cooperate
 </template>
 
-<style lang="scss" scoped>
-#Footer{
-  position: fixed;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  background:var(--t-dark);
-  padding: .5rem;
-  .copyright{
-    color:var(--t-gray);
-    font-size: 14px;
-  }
+<style lang='scss' scoped>
+#Cooperate{
+  padding:20px;
 }
 </style>

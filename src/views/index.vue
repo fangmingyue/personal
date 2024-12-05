@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
 // !資料 --------------------------------------------------------------------------------------------
 // const props = defineProps({}); definePageMeta({});
 
@@ -23,7 +22,12 @@
 
 <template lang="pug">
   #Home
-    div {{ $t("welcome")}}
+    .wrap
+      div {{ $t("welcome")}}
 </template> 
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+#Home{
+  padding:20px;
+}
+</style>

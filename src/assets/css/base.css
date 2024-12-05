@@ -30,6 +30,9 @@
   --tertiary-900: #49340D; 
   
   --error: #D90000;
-  --t-gray: #F8F8F9;
+  --t-dark:#2b2b2b;
+  --t-white:#fff;
+  --t-gray: #7c7c7c;
+  --t-text: #696969;
   --bg: #f5f5f5;
 }

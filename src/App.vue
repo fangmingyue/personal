@@ -1,7 +1,7 @@
 <script setup lang="ts">
 import Header from "@/components/layout/header.vue";
 import Footer from "@/components/layout/footer.vue";
-
+import Nav from '@/components/layout/nav.vue';
 // !資料 --------------------------------------------------------------------------------------------
 // const props = defineProps({}); definePageMeta({});
 
@@ -28,6 +28,7 @@ import Footer from "@/components/layout/footer.vue";
     Header
     router-view
     Footer
+    Nav
 </template>
 
 <style lang="scss" scoped></style>
