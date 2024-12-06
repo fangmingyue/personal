@@ -548,34 +548,61 @@ export const PROJECT3 = [
   } 
 ]
 
-export const service = [
+export const SERVICE = [
   {
-    title:'網頁設計',
-    list:['行銷網頁設計','RWD/AWD網頁設計','網頁套版代工'],
+    title:'service1',
+    list:['service1-1','service1-2','service1-3'],
     icon:'hugeicons:web-design-01'
   },  {
-    title:'網頁工程',
-    list:['網站API串接','網頁軟體設計','其他工程事項'],
+    title:'service2',
+    list:['service2-1','service2-2','service2-3'],
     icon:'streamline:programming-browser-build-build-website-development-window-code-programming-web-backend-browser-dev'
   },
   {
-    title:'圖像設計',
-    list:['Banne設計','Logo/Icon設計','海報設計'],
+    title:'service3',
+    list:['service3-1','service3-2','service3-3'],
     icon:'material-symbols:imagesmode-outline-sharp'
   },
   {
-    title:'影片剪輯',
-    list:['影片剪接','影視特效設計','影片字幕代工'],
+    title:'service4',
+    list:['service4-1','service4-2','service4-3'],
     icon:'material-symbols:video-call-outline-sharp'
   },
   {
-    title:'三維模型',
-    list:['三維模型製作','三維場景製作','三維動畫設計'],
+    title:'service5',
+    list:['service5-1','service5-2','service5-3'],
     icon:'material-symbols:3d-rotation-outline-rounded'
   },
   {
-    title:'教學服務',
-    list:['公司企業網頁培訓','個人家教網頁培訓','其他業務長期配合'],
+    title:'service6',
+    list:['service6-1','service6-2','service6-3'],
     icon:'hugeicons:teacher'
   }
+]
+
+export const METHOD = [
+  {
+    title:'method-1',
+    describe:'method-1-1',
+    img:'/img/cooperate/hire.svg',
+    info1: 'face',
+    info2: 'month',
+    content:['m-1-1', 'm-1-2', 'm-1-3']
+  },
+  {
+    title:'method-2',
+    describe:'method-2-1',
+    img:'/img/cooperate/cooperate.svg',
+    info1: 'face',
+    info2: 'month',
+    content:['m-2-1', 'm-2-2', 'm-2-3', 'm-2-4']
+  },
+  {
+    title:'method-3',
+    describe:'method-3-1',
+    img:'/img/cooperate/case.svg',
+    info1: '$5000',
+    info2: 'every',
+    content:['m-3-1', 'm-3-2', 'm-3-3', 'm-3-4']
+  },
 ]

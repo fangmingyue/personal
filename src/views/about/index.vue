@@ -62,6 +62,12 @@ import { Icon } from '@iconify/vue';
                 li(class="flex items-center ")
                   Icon(icon="streamline:travel-places-theater-mask-hobby-theater-masks-drama-event-show-entertainment")
                   span(class="ml-2") {{$t('base5')}}
+                li(class="flex items-center ")
+                  Icon(icon="material-symbols:loupe-outline-sharp")
+                  span(class="ml-2") {{$t('base6')}}
+                li(class="flex items-center ")
+                  Icon(icon="material-symbols:loupe-outline-sharp")
+                  span(class="ml-2") {{$t('base7')}}
           div(class="row-span-1 bg-t-white rounded-md p-4")
             div(class="font-semibold text-xl") {{ $t('exp') }}
             ul(class="mt-8 leading-6 text-t-text")
