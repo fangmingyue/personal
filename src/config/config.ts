@@ -547,3 +547,35 @@ export const PROJECT3 = [
     url:'https://www.918ofa.net/'
   } 
 ]
+
+export const service = [
+  {
+    title:'網頁設計',
+    list:['行銷網頁設計','RWD/AWD網頁設計','網頁套版代工'],
+    icon:'hugeicons:web-design-01'
+  },  {
+    title:'網頁工程',
+    list:['網站API串接','網頁軟體設計','其他工程事項'],
+    icon:'streamline:programming-browser-build-build-website-development-window-code-programming-web-backend-browser-dev'
+  },
+  {
+    title:'圖像設計',
+    list:['Banne設計','Logo/Icon設計','海報設計'],
+    icon:'material-symbols:imagesmode-outline-sharp'
+  },
+  {
+    title:'影片剪輯',
+    list:['影片剪接','影視特效設計','影片字幕代工'],
+    icon:'material-symbols:video-call-outline-sharp'
+  },
+  {
+    title:'三維模型',
+    list:['三維模型製作','三維場景製作','三維動畫設計'],
+    icon:'material-symbols:3d-rotation-outline-rounded'
+  },
+  {
+    title:'教學服務',
+    list:['公司企業網頁培訓','個人家教網頁培訓','其他業務長期配合'],
+    icon:'hugeicons:teacher'
+  }
+]
