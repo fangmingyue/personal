@@ -167,3 +167,383 @@ export const EXP = [
     content:'content7'
   }
 ]
+
+export const PROJECT1 = [
+  {
+    id: 1,
+    title:'SuperHouse',
+    short:'this is short description',
+    content:'this is description',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['vue3','tailwind','pug'],
+    url:'https://www.super-house.club/'
+  },
+  {
+    id: 2,
+    title:'SoloLive',
+    short:'this is short description',
+    content:'this is description',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['vue3','tailwind','pug'],
+    url:'https://www.super-house.club/'
+  },
+  {
+    id: 3,
+    title:'尉寶建設',
+    short:'this is short description',
+    content:'this is description',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['vue3','tailwind','pug'],
+    url:'https://www.super-house.club/'
+  },
+  {
+    id: 4,
+    title:'淨土院',
+    short:'this is short description',
+    content:'this is description',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['vue3','tailwind','pug'],
+    url:'https://pltf.org.tw/'
+  },
+  {
+    id: 5,
+    title:'淨土院',
+    short:'this is short description',
+    content:'this is description',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['vue3','tailwind','pug'],
+    url:'https://pltf.org.tw/'
+  },
+  {
+    id: 6,
+    title:'串門子',
+    short:'this is short description',
+    content:'this is description',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['vue3','tailwind','pug'],
+    url:''
+  },
+  {
+    id: 7,
+    title:'雅典娜整合行銷',
+    short:'this is short description',
+    content:'this is description',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['vue3','tailwind','pug'],
+    url:''
+  },
+  {
+    id: 8,
+    title:'臣信不動產',
+    short:'this is short description',
+    content:'this is description',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['vue3','tailwind','pug'],
+    url:''
+  },
+]
+
+export const PROJECT2 = [
+  {
+    id: 1,
+    title:'台中驗光師公會',
+    short:'this is short description',
+    content:'this is description',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['vue3','tailwind','pug'],
+    url:'https://www.super-house.club/'
+  },
+  {
+    id: 2,
+    title:'台中驗光師公會(後台)',
+    short:'this is short description',
+    content:'this is description',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['vue3','tailwind','pug'],
+    url:'https://www.super-house.club/'
+  },
+  {
+    id: 3,
+    title:'瑜珈 - Fly Hight Yoga',
+    short:'this is short description',
+    content:'this is description',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['vue3','tailwind','pug'],
+    url:'https://www.super-house.club/'
+  },
+  {
+    id: 4,
+    title:'美家人力',
+    short:'this is short description',
+    content:'this is description',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['vue3','tailwind','pug'],
+    url:'https://may-god.com/'
+  },
+  {
+    id: 5,
+    title:'奇吉科技',
+    short:'this is short description',
+    content:'this is description',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['vue3','tailwind','pug'],
+    url:'https://pltf.org.tw/'
+  }  
+]
+
+export const PROJECT3 = [
+  {
+    id: 1,
+    title:'鉅城娛樂',
+    short:'this is short description',
+    content:'this is description',
+    smallpic:'/img/project/p3/ofa177.jpg',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['html5','css3','javascript','vue3','tailwind'],
+    url:'https://www.ofa177.net/'
+  },
+  {
+    id: 2,
+    title:'LT娛樂城',
+    short:'this is short description',
+    content:'this is description',
+    smallpic:'/img/project/p3/lt1688.jpg',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['html5','css3','javascript','vue3','tailwind'],
+    url:'https://www.lt1688.net/'
+  },
+  {
+    id: 3,
+    title:'帝遊娛樂城',
+    short:'this is short description',
+    content:'this is description',
+    smallpic:'/img/project/p3/dgamings.jpg',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['html5','css3','javascript','vue3','tailwind'],
+    url:'https://www.dgamings.com/'
+  },
+  {
+    id: 4,
+    title:'OC娛樂城',
+    short:'this is short description',
+    content:'this is description',
+    smallpic:'/img/project/p3/oc178.jpg',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['html5','css3','javascript','vue3','tailwind'],
+    url:'https://www.oc178.net/'
+  },
+  {
+    id: 5,
+    title:'朕天下娛樂城',
+    short:'this is short description',
+    content:'this is description',
+    smallpic:'/img/project/p3/mw1688.jpg',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['html5','css3','javascript','vue3','tailwind'],
+    url:'https://www.mw1688.net/'
+  },
+  {
+    id: 6,
+    title:'0857娛樂城',
+    short:'this is short description',
+    content:'this is description',
+    smallpic:'/img/project/p3/0857.jpg',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['html5','css3','javascript','vue3','tailwind'],
+    url:'https://www.0857.games/'
+  },
+  {
+    id: 7,
+    title:'8方娛樂城',
+    short:'this is short description',
+    content:'this is description',
+    smallpic:'/img/project/p3/meta178.jpg',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['html5','css3','javascript','vue3','tailwind'],
+    url:'https://www.meta178.com/'
+  },
+  {
+    id: 8,
+    title:'富馬娛樂城',
+    short:'this is short description',
+    content:'this is description',
+    smallpic:'/img/project/p3/fm888.jpg',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['html5','css3','javascript','vue3','tailwind'],
+    url:'https://www.fm888.net/'
+  },
+  {
+    id: 9,
+    title:'RM娛樂城',
+    short:'this is short description',
+    content:'this is description',
+    smallpic:'/img/project/p3/rm666.jpg',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['html5','css3','javascript','vue3','tailwind'],
+    url:'https://www.rm666.co/'
+  },
+  {
+    id: 10,
+    title:'滿天星娛樂城',
+    short:'this is short description',
+    content:'this is description',
+    smallpic:'/img/project/p3/star1688.jpg',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['html5','css3','javascript','vue3','tailwind'],
+    url:'https://www.star1688.tw/'
+  },
+  {
+    id: 11,
+    title:'雄厚娛樂城',
+    short:'this is short description',
+    content:'this is description',
+    smallpic:'/img/project/p3/ofa918.jpg',
+    image:[
+      "https://picsum.photos/200/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+      "https://picsum.photos/300/200",
+    ],
+    skill:['html5','css3','javascript','vue3','tailwind'],
+    url:'https://www.918ofa.net/'
+  } 
+]

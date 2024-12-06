@@ -1,5 +1,6 @@
 <script setup lang='ts'>
-
+import { Icon } from '@iconify/vue';
+import { useI18n } from 'vue-i18n';
 // !資料 --------------------------------------------------------------------------------------------
 // const props = defineProps({}); definePageMeta({});
 
@@ -24,7 +25,11 @@
 
 <template lang='pug'>
   #Cooperate
-    div this is cooperate
+    .wrap
+      div(class="grid grid-rows-2 gap-5 h-full")
+        div(class="row-span-1 bg-t-white rounded-md p-4")
+          div(class="font-semibold text-xl") 服務內容
+        div(class="row-span-1 bg-t-white rounded-md p-4") 2
 </template>
 
 <style lang='scss' scoped>
