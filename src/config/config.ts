@@ -46,81 +46,81 @@ export const NAV = [
 
 export const SKILL = [
   {
-   label:"HTML5",
-   icon:"html5.svg"
+    label:"HTML5",
+    icon:"html5.svg"
   },
   {
     label:"CSS3",
     icon:"css3.svg"
-   }, 
-   {
+    }, 
+  {
     label:"JavaScript",
     icon:"js.svg"
-   },
-   {
+  },
+  {
     label:"Jquery",
     icon:"jquery.svg"
-   }, 
-   {
+  }, 
+  {
     label:"Vue",
     icon:"vue.svg"
-   },
-   {
+  },
+  {
     label:"Nuxt3",
     icon:"nuxt.png"
-   }, 
-   {
+  }, 
+  {
     label:"Vite",
     icon:"vite.svg"
-   }, 
-   {
+  }, 
+  {
     label:"Pinia",
     icon:"pinia.svg"
-   }, 
-   {
+  }, 
+  {
     label:"Tailwind",
     icon:"tailwind.svg"
-   }, 
-   {
+  }, 
+  {
     label:"Pug",
     icon:"pug.png"
-   }, 
-   {
+  }, 
+  {
     label:"Element Plus",
     icon:"element-plus.svg"
-   }, 
-   {
+  }, 
+  {
     label:"Figma",
     icon:"figma.svg"
-   }, 
-   {
+  }, 
+  {
     label:"XD",
     icon:"xd.svg"
-   }, 
-   {
+  }, 
+  {
     label:"Photoshop",
     icon:"ps.svg"
-   }, 
-   {
+  }, 
+  {
     label:"Illustrator",
     icon:"ai.svg"
-   }, 
-   {
+  }, 
+  {
     label:"After Effects",
     icon:"ae.svg"
-   }, 
-   {
+  }, 
+  {
     label:"premiere",
     icon:"pr.svg"
-   }, 
-   {
+  }, 
+  {
     label:"Blender",
     icon:"blender.svg"
-   }, 
-   {
+  }, 
+  {
     label:"C4D",
     icon:"c4d.svg"
-   },
+  },
 ]
 
 export const EXP = [
@@ -172,16 +172,19 @@ export const PROJECT1 = [
   {
     id: 1,
     title:'SuperHouse',
-    short:'this is short description',
-    content:'this is description',
+    short:'SuperHouse夜店形象網站',
+    content:'六角形被譽為「 世界上最完美圖形 」，象徵Super House是為了超越所有亞洲頂尖娛樂夜店而誕生。 Super House集結了一群在夜生活娛樂圈深耕超過20年足跡遍及全球各大知名夜店的專業團隊所創立。 Super House的精髓來自精緻「服務」，奢華「珍餚美酒」，創新風格「聲光電」體驗，將理想的個人主義打造成藝術作品。 我們的誕生，將重新定義亞洲夜生活娛樂新指標。',
+    smallpic:'/img/project/p1/superhouse.jpg',
+    type:'p1',
     image:[
-      "https://picsum.photos/200/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
+      "/img/project/p1/superhouse/superhouse-1.jpg",
+      "/img/project/p1/superhouse/superhouse-2.jpg",
+      "/img/project/p1/superhouse/superhouse-3.jpg",
+      "/img/project/p1/superhouse/superhouse-4.jpg",
+      "/img/project/p1/superhouse/superhouse-5.jpg",
+      "/img/project/p1/superhouse/superhouse-6.jpg",
     ],
-    skill:['vue3','tailwind','pug'],
+    skill:['html5','css3','javascript','vue3'],
     url:'https://www.super-house.club/'
   },
   {
@@ -189,6 +192,8 @@ export const PROJECT1 = [
     title:'SoloLive',
     short:'this is short description',
     content:'this is description',
+    smallpic:'/img/project/p1/superhouse.jpg',
+    type:'p1',
     image:[
       "https://picsum.photos/200/200",
       "https://picsum.photos/300/200",
@@ -204,6 +209,8 @@ export const PROJECT1 = [
     title:'尉寶建設',
     short:'this is short description',
     content:'this is description',
+    smallpic:'/img/project/p1/superhouse.jpg',
+    type:'p1',
     image:[
       "https://picsum.photos/200/200",
       "https://picsum.photos/300/200",
@@ -219,6 +226,8 @@ export const PROJECT1 = [
     title:'淨土院',
     short:'this is short description',
     content:'this is description',
+    smallpic:'/img/project/p1/superhouse.jpg',
+    type:'p1',
     image:[
       "https://picsum.photos/200/200",
       "https://picsum.photos/300/200",
@@ -234,6 +243,8 @@ export const PROJECT1 = [
     title:'淨土院',
     short:'this is short description',
     content:'this is description',
+    smallpic:'/img/project/p1/superhouse.jpg',
+    type:'p1',
     image:[
       "https://picsum.photos/200/200",
       "https://picsum.photos/300/200",
@@ -249,6 +260,8 @@ export const PROJECT1 = [
     title:'串門子',
     short:'this is short description',
     content:'this is description',
+    smallpic:'/img/project/p1/superhouse.jpg',
+    type:'p1',
     image:[
       "https://picsum.photos/200/200",
       "https://picsum.photos/300/200",
@@ -264,6 +277,8 @@ export const PROJECT1 = [
     title:'雅典娜整合行銷',
     short:'this is short description',
     content:'this is description',
+    smallpic:'/img/project/p1/superhouse.jpg',
+    type:'p1',
     image:[
       "https://picsum.photos/200/200",
       "https://picsum.photos/300/200",
@@ -279,6 +294,8 @@ export const PROJECT1 = [
     title:'臣信不動產',
     short:'this is short description',
     content:'this is description',
+    smallpic:'/img/project/p1/superhouse.jpg',
+    type:'p1',
     image:[
       "https://picsum.photos/200/200",
       "https://picsum.photos/300/200",
@@ -373,7 +390,7 @@ export const PROJECT3 = [
   {
     id: 1,
     title:'鉅城娛樂',
-    short:'this is short description',
+    short:'線上娛樂城',
     content:'this is description',
     smallpic:'/img/project/p3/ofa177.jpg',
     image:[
@@ -389,7 +406,7 @@ export const PROJECT3 = [
   {
     id: 2,
     title:'LT娛樂城',
-    short:'this is short description',
+    short:'線上娛樂城',
     content:'this is description',
     smallpic:'/img/project/p3/lt1688.jpg',
     image:[
@@ -405,7 +422,7 @@ export const PROJECT3 = [
   {
     id: 3,
     title:'帝遊娛樂城',
-    short:'this is short description',
+    short:'線上娛樂城',
     content:'this is description',
     smallpic:'/img/project/p3/dgamings.jpg',
     image:[
@@ -421,7 +438,7 @@ export const PROJECT3 = [
   {
     id: 4,
     title:'OC娛樂城',
-    short:'this is short description',
+    short:'線上娛樂城',
     content:'this is description',
     smallpic:'/img/project/p3/oc178.jpg',
     image:[
@@ -437,7 +454,7 @@ export const PROJECT3 = [
   {
     id: 5,
     title:'朕天下娛樂城',
-    short:'this is short description',
+    short:'線上娛樂城',
     content:'this is description',
     smallpic:'/img/project/p3/mw1688.jpg',
     image:[
@@ -453,7 +470,7 @@ export const PROJECT3 = [
   {
     id: 6,
     title:'0857娛樂城',
-    short:'this is short description',
+    short:'線上娛樂城',
     content:'this is description',
     smallpic:'/img/project/p3/0857.jpg',
     image:[
@@ -469,7 +486,7 @@ export const PROJECT3 = [
   {
     id: 7,
     title:'8方娛樂城',
-    short:'this is short description',
+    short:'線上娛樂城',
     content:'this is description',
     smallpic:'/img/project/p3/meta178.jpg',
     image:[
@@ -485,7 +502,7 @@ export const PROJECT3 = [
   {
     id: 8,
     title:'富馬娛樂城',
-    short:'this is short description',
+    short:'線上娛樂城',
     content:'this is description',
     smallpic:'/img/project/p3/fm888.jpg',
     image:[
@@ -501,7 +518,7 @@ export const PROJECT3 = [
   {
     id: 9,
     title:'RM娛樂城',
-    short:'this is short description',
+    short:'線上娛樂城',
     content:'this is description',
     smallpic:'/img/project/p3/rm666.jpg',
     image:[
@@ -517,7 +534,7 @@ export const PROJECT3 = [
   {
     id: 10,
     title:'滿天星娛樂城',
-    short:'this is short description',
+    short:'線上娛樂城',
     content:'this is description',
     smallpic:'/img/project/p3/star1688.jpg',
     image:[
@@ -533,7 +550,7 @@ export const PROJECT3 = [
   {
     id: 11,
     title:'雄厚娛樂城',
-    short:'this is short description',
+    short:'線上娛樂城',
     content:'this is description',
     smallpic:'/img/project/p3/ofa918.jpg',
     image:[

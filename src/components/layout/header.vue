@@ -22,6 +22,11 @@ const openModel = () => {
   model.value = true;
 }
 
+// 手機關閉側邊選單
+const closeModel = () => {
+  model.value = false;
+}
+
 // !流程 --------------------------------------------------------------------------------------------
 
 // !函式 --------------------------------------------------------------------------------------------
@@ -55,8 +60,14 @@ onMounted(()=>{
     .model(v-if="model")
     .model-inner(class="overflow-hidden" :class="{'active-in':model}")
       ul
-        li(v-for="item in NAV" :key="item.id")
-          router-link(:to="item.link") {{ $t(item.label) }}
+        li(v-for="item in NAV" :key="item.id" @click="closeModel")
+          router-link(:to="item.link" class="active:no-underline")
+            div(class="text-t-white text-xl text-center mb-4 whitespace-nowrap") {{ $t(item.label) }}
+    .model-inner1(class="overflow-hidden" :class="{'active1-in':model}")
+      a(href="https://line.me/ti/p/_OBxSaPc7J" target="_blank")
+        img(src="/img/qrcode.jpg" alt="qrcode" class="w-full p-3")
+    .close-btn(v-show="model" class="overflow-hidden flex justify-center items-center" @click="closeModel")
+      Icon(icon="ep:close-bold" class="text-t-white text-xl")
 </template>
 
 <style lang="scss" scoped>
@@ -77,7 +88,7 @@ onMounted(()=>{
     left:0;
     width: 100%;
     height: 100vh;
-    background: hsla(0, 0%, 0%, .7);
+    background: hsla(0, 0%, 0%, .2);
     z-index: 99;
   }
   .model-inner{
@@ -87,18 +98,47 @@ onMounted(()=>{
     border-top-right-radius: 24px;
     border-bottom-right-radius: 24px;
     box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
-    background: var(--primary-100);
+    background: #3a3a3a;
     left:0;
     top:50%;
     transform: translateY(-50%);
     transition:all .3s ease;
     transition-delay: .1s;
     z-index: 199;
-   }
+  }
+  .model-inner1{
+    position:absolute;
+    width: 0;
+    height: 80%;
+    border-top-left-radius: 24px;
+    border-bottom-left-radius: 24px;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+    background: #3a3a3a;
+    right:0;
+    top:50%;
+    transform: translateY(-50%);
+    transition:all .3s ease;
+    transition-delay: .1s;
+    z-index: 199;
+  }
+  .close-btn{
+    position: fixed;
+    top:3px;
+    right:18px;
+    width: 36px;
+    height: 36px;
+    background: #3a3a3a;
+    border-radius: 8px;
+    z-index: 199;
+  }
 }
 
 .active-in{
-  width: 90%!important;
+  width: 40%!important;
+  padding:20px;
+}
+.active1-in{
+  width: 55%!important;
   padding:20px;
 }
 </style>

@@ -1,5 +1,9 @@
 <script setup>
-import { ref } from 'vue';
+import { onMounted, ref, computed } from 'vue';
+import { useRoute } from 'vue-router'
+import { PROJECT1, PROJECT2, PROJECT3 } from '@/config/config';
+
+const route = useRoute();
 
 // 使用 ref 声明响应式数据
 const images = ref([
@@ -10,6 +14,62 @@ const images = ref([
   "https://picsum.photos/300/200",
   "https://picsum.photos/300/200",
 ]);
+
+const name = computed(() => route.params.id || "");
+const type = computed(() => route.query.type || "");
+const data = ref([])
+
+if(type.value === 'p1'){
+  images.value = PROJECT1.filter(item => item.title === name.value)[0].image
+  data.value = PROJECT1.filter(item => item.title === name.value)[0]
+}
+
+if(type.value === 'p2'){
+  images.value = PROJECT2.filter(item => item.title === name.value)[0].image
+  data.value = PROJECT2.filter(item => item.title === name.value)[0]
+}
+
+if(type.value === 'p3'){
+  images.value = PROJECT3.filter(item => item.title === name.value)[0].image
+  data.value = PROJECT3.filter(item => item.title === name.value)[0]
+}
+
+// 使用技能class color
+const useColor = (item) =>{
+  switch(item){
+    case 'html5':
+      return 'text-[#F26649]'
+    case 'css3':
+      return 'text-[#007D46]'
+    case 'javascript':
+      return 'text-[]'
+    case 'vue3':
+      return 'text-[]'
+    case 'nuxt3':
+      return 'text-[]'
+    case 'tailwind':
+      
+
+
+
+
+
+
+
+
+
+    
+    case 'pug':
+      return 'text-[]'
+    case 'element plus':
+      return 'text-[]'
+    case 'vite':
+      return 'text-[]'
+    case 'pinia':
+      return 'text-[]'
+  }
+}
+
 </script>
 
 <template>
@@ -18,7 +78,11 @@ const images = ref([
       <div class="grid grid-cols-12 gap-5 h-full">
         <!-- left -->
         <div class="col-span-4 bg-t-white p-5 h-full rounded-md md:col-span-12">
-          123
+          <h1 class="bg-primary-500 text-t-white text-xl p-2 tracking-wider rounded-sm font-semibold">{{ data.title }}</h1>
+          <div class="mt-4 p-2 bg-primary-100 leading-6">{{data.content }}</div>
+          <ul class="mt-4 px-2 flex items-center flex-wrap">
+            <li v-for="item in data.skill" :key="item" class="mr-2">{{ item }}</li>
+          </ul>
         </div>
         <!-- right -->
         <div class="col-span-8 bg-t-white p-5 h-full rounded-md md:col-span-12">

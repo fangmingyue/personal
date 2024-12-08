@@ -10,7 +10,6 @@ const hoverIndex = ref<null | number>(null);
 // 滑鼠滑入事件
 const mouseEnter = (index: number) => {
   hoverIndex.value = index
-  console.log(hoverIndex)
 }
 // 滑鼠移出事件
 const mouseLeave = (index: number) => {
