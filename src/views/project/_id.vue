@@ -38,35 +38,25 @@ if(type.value === 'p3'){
 const useColor = (item) =>{
   switch(item){
     case 'html5':
-      return 'text-[#F26649]'
+      return 'bg-[#F26649]'
     case 'css3':
-      return 'text-[#007D46]'
+      return 'bg-[#007D46]'
     case 'javascript':
-      return 'text-[]'
+      return 'bg-[#fbd601]'
     case 'vue3':
-      return 'text-[]'
+      return 'bg-[#42b983]'
     case 'nuxt3':
-      return 'text-[]'
+      return 'bg-[#0dde86]'
     case 'tailwind':
-      
-
-
-
-
-
-
-
-
-
-    
+      return 'bg-[#39bdf8]'
     case 'pug':
-      return 'text-[]'
+      return 'bg-[#5c3933]'
     case 'element plus':
-      return 'text-[]'
+      return 'bg-[#419fff]'
     case 'vite':
-      return 'text-[]'
+      return 'bg-[#9572ff]'
     case 'pinia':
-      return 'text-[]'
+      return 'bg-[#ffca44]'
   }
 }
 
@@ -80,9 +70,13 @@ const useColor = (item) =>{
         <div class="col-span-4 bg-t-white p-5 h-full rounded-md md:col-span-12">
           <h1 class="bg-primary-500 text-t-white text-xl p-2 tracking-wider rounded-sm font-semibold">{{ data.title }}</h1>
           <div class="mt-4 p-2 bg-primary-100 leading-6">{{data.content }}</div>
-          <ul class="mt-4 px-2 flex items-center flex-wrap">
-            <li v-for="item in data.skill" :key="item" class="mr-2">{{ item }}</li>
+          <ul class="mt-2 px-2 py-4 flex items-center flex-wrap shadow-sm">
+            <li v-for="item in data.skill" :key="item" class="mr-2 mt-2 text-t-white py-1 px-2 rounded-md shadow-md" :class="useColor(item)">{{ item }}</li>
           </ul>
+          <div class="p-2 mt-8 flex justify-end">
+            <router-link to="/project" class="no-underline bg-t-gray text-t-white py-2 px-4 rounded-full shadow-md">{{ $t('back-menu') }}</router-link>
+            <a :href="data.url" target="_blank" class="no-underline bg-primary-600 text-t-white py-2 px-4 rounded-full shadow-md ml-4">{{ $t('to-web') }}</a>
+          </div>
         </div>
         <!-- right -->
         <div class="col-span-8 bg-t-white p-5 h-full rounded-md md:col-span-12">

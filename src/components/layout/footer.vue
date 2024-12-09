@@ -23,9 +23,9 @@
 </script>
 
 <template lang="pug">
-  #Footer
-    .container
-      .copyright Copyright © 2024 Rian. All rights reserved.
+#Footer
+  .container
+    .copyright Copyright © 2024 Rian. All rights reserved.
 </template>
 
 <style lang="scss" scoped>

@@ -190,19 +190,19 @@ export const PROJECT1 = [
   {
     id: 2,
     title:'SoloLive',
-    short:'this is short description',
-    content:'this is description',
-    smallpic:'/img/project/p1/superhouse.jpg',
+    short:'Sololive餐酒館形象網站',
+    content:'在這個節奏飛快的時代，科技為我們的生活帶來了無限的可能性，讓每個人心中的夢想種子有了萌芽的機會。然而，短影音的普及雖然為我們提供了展示自我的平台，卻也容易讓我們忽視夢想的初衷與本質。Solo Live想傳遞的理念，正是以「真實」為核心，主理人堅信，真正有價值的創作應當是誠實、透明的。因此，在保留科技優勢的同時，我們更加強調誠懇的包裝，將直播的即時魅力與現場舞台的真實性結合，為觀眾和表演者創造一個獨特而真摯的娛樂體驗。透過Solo Live，我們將為每一顆夢想種子提供成長的土壤。無論你是誰，都有機會在這裡綻放光芒，成為未來的明星。展演空間以創新回歸初心，堅持走出一條屬於我們的道路。',
+    smallpic:'/img/project/p1/sololive.jpg',
     type:'p1',
     image:[
-      "https://picsum.photos/200/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
+      "/img/project/p1/sololive/sololive-1.jpg",
+      "/img/project/p1/sololive/sololive-2.jpg",
+      "/img/project/p1/sololive/sololive-3.jpg",
+      "/img/project/p1/sololive/sololive-4.jpg",
+      "/img/project/p1/sololive/sololive-5.jpg",
     ],
-    skill:['vue3','tailwind','pug'],
-    url:'https://www.super-house.club/'
+    skill:['html5','css3','javascript','nuxt3','element plus','vite','tailwind','pug'],
+    url:'https://sololive.nouveau0713.com/'
   },
   {
     id: 3,

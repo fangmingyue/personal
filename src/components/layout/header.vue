@@ -47,27 +47,27 @@ onMounted(()=>{
 </script>
 
 <template lang="pug">
-  #Header
-    .container
-      div(class="flex justify-between items-center h-full")
-        router-link(to="/")
-          img.logo(src="/img/logo.svg" alt="logo")
-        div(class="flex items-center")
-          el-select( v-model="value" placeholder="Select" size="small" style="width: 100px" @change="langChange(value)")
-            el-option(v-for="item in LANGUAGE" :key="item.value" :label="item.label" :value="item.value") {{item.label}}
-          Icon(icon="ic:baseline-reorder" class="hidden text-4xl ml-2 text-t-white md:block" @click="openModel")
-    //- 側邊展開
-    .model(v-if="model")
-    .model-inner(class="overflow-hidden" :class="{'active-in':model}")
-      ul
-        li(v-for="item in NAV" :key="item.id" @click="closeModel")
-          router-link(:to="item.link" class="active:no-underline")
-            div(class="text-t-white text-xl text-center mb-4 whitespace-nowrap") {{ $t(item.label) }}
-    .model-inner1(class="overflow-hidden" :class="{'active1-in':model}")
-      a(href="https://line.me/ti/p/_OBxSaPc7J" target="_blank")
-        img(src="/img/qrcode.jpg" alt="qrcode" class="w-full p-3")
-    .close-btn(v-show="model" class="overflow-hidden flex justify-center items-center" @click="closeModel")
-      Icon(icon="ep:close-bold" class="text-t-white text-xl")
+#Header
+  .container
+    div(class="flex justify-between items-center h-full")
+      router-link(to="/")
+        img.logo(src="/img/logo.svg" alt="logo")
+      div(class="flex items-center")
+        el-select( v-model="value" placeholder="Select" size="small" style="width: 100px" @change="langChange(value)")
+          el-option(v-for="item in LANGUAGE" :key="item.value" :label="item.label" :value="item.value") {{item.label}}
+        Icon(icon="ic:baseline-reorder" class="hidden text-4xl ml-2 text-t-white md:block" @click="openModel")
+  //- 側邊展開
+  .model(v-if="model")
+  .model-inner(class="overflow-hidden" :class="{'active-in':model}")
+    ul
+      li(v-for="item in NAV" :key="item.id" @click="closeModel")
+        router-link(:to="item.link" class="no-underline")
+          div(class="text-t-white text-xl text-center mb-4 whitespace-nowrap") {{ $t(item.label) }}
+  .model-inner1(class="overflow-hidden" :class="{'active1-in':model}")
+    a(href="https://line.me/ti/p/_OBxSaPc7J" target="_blank")
+      img(src="/img/qrcode.jpg" alt="qrcode" class="w-full p-3")
+  .close-btn(v-show="model" class="overflow-hidden flex justify-center items-center" @click="closeModel")
+    Icon(icon="ep:close-bold" class="text-t-white text-xl")
 </template>
 
 <style lang="scss" scoped>

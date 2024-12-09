@@ -21,9 +21,9 @@
 </script>
 
 <template lang="pug">
-  #Home
-    .wrap
-      div {{ $t("welcome")}}
+#Home
+  .wrap
+    div {{ $t("welcome")}}
 </template> 
 
 <style lang="scss" scoped>

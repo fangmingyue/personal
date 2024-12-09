@@ -28,37 +28,37 @@ const handleClick = (tab: TabsPaneContext, event: Event) => {
 </script>
 
 <template lang='pug'>
-  #Project
-    .wrap
-      el-tabs(v-model="activeName" class="demo-tabs" @tab-click="handleClick")
-        el-tab-pane(label="形象網站" name="first")
-          div(class="grid grid-cols-12 gap-5 shadow-md")
-            div(v-for="item in PROJECT1" :key="item.id" class="col-span-3 bg-t-white rounded-md shadow-sm overflow-hidden lg:col-span-4 md:col-span-12")
-              div(class="p-4")
-                div(class="w-full")
-                  img(:src="`${item.smallpic}`" class="w-full object-cover")
-                div(class="mt-4 mb-2 text-xl") {{ item.title }}
-                div(class="text-md text-t-text") {{ item.short}}
-              router-link(:to="`/project/${item.title}?type=${item.type}`" class="block w-full text-center tracking-wider bg-primary-500 py-4 text-t-white no-underline cursor-pointer hover:bg-primary-600") {{ $t('detail') }}
-        el-tab-pane(label="功能網站" name="second")
-          div(class="grid grid-cols-12 gap-5 shadow-md")
-            div(v-for="item in PROJECT2" :key="item.id" class="col-span-3 bg-t-white rounded-md shadow-sm overflow-hidden lg:col-span-4 md:col-span-12")
-              div(class="p-4")
-                div(class="w-full h-[140px] bg-t-gray") 圖片預留
-                div(class="mt-4 mb-2 text-xl") {{ item.title }}
-                div(class="text-md text-t-text") {{ item.short}}
-              router-link(:to="`/project/${item.title}`" class="block w-full text-center tracking-wider bg-primary-500 py-4 text-t-white no-underline cursor-pointer hover:bg-primary-600") {{ $t('detail') }}
-        el-tab-pane(label="其他網站" name="third")
-          div(class="grid grid-cols-12 gap-5 shadow-md")
-            div(v-for="item in PROJECT3" :key="item.id" class="col-span-3 bg-t-white rounded-md shadow-sm overflow-hidden lg:col-span-4 md:col-span-12")
-              div(class="p-4")
-                div(class="w-full")
-                  img(:src="`${item.smallpic}`" class="w-full object-cover")
-                div(class="mt-4 mb-2 text-xl") {{ item.title }}
-                div(class="text-md text-t-text") {{ item.short}}
-              router-link(:to="`/project/${item.title}`" class="block w-full text-center tracking-wider bg-primary-500 py-4 text-t-white no-underline cursor-pointer hover:bg-primary-600") {{ $t('detail') }}
-        el-tab-pane(label="其他作品" name="fourth")
-          div 建構中...
+#Project
+  .wrap
+    el-tabs(v-model="activeName" class="demo-tabs" @tab-click="handleClick")
+      el-tab-pane(label="形象網站" name="first")
+        div(class="grid grid-cols-12 gap-5 shadow-md")
+          div(v-for="item in PROJECT1" :key="item.id" class="col-span-3 bg-t-white rounded-md shadow-sm overflow-hidden lg:col-span-4 md:col-span-12")
+            div(class="p-4")
+              div(class="w-full")
+                img(:src="`${item.smallpic}`" class="w-full object-cover")
+              div(class="mt-4 mb-2 text-xl") {{ item.title }}
+              div(class="text-md text-t-text") {{ item.short}}
+            router-link(:to="`/project/${item.title}?type=${item.type}`" class="block w-full text-center tracking-wider bg-primary-500 py-4 text-t-white no-underline cursor-pointer hover:bg-primary-600") {{ $t('detail') }}
+      el-tab-pane(label="功能網站" name="second")
+        div(class="grid grid-cols-12 gap-5 shadow-md")
+          div(v-for="item in PROJECT2" :key="item.id" class="col-span-3 bg-t-white rounded-md shadow-sm overflow-hidden lg:col-span-4 md:col-span-12")
+            div(class="p-4")
+              div(class="w-full h-[140px] bg-t-gray") 圖片預留
+              div(class="mt-4 mb-2 text-xl") {{ item.title }}
+              div(class="text-md text-t-text") {{ item.short}}
+            router-link(:to="`/project/${item.title}`" class="block w-full text-center tracking-wider bg-primary-500 py-4 text-t-white no-underline cursor-pointer hover:bg-primary-600") {{ $t('detail') }}
+      el-tab-pane(label="其他網站" name="third")
+        div(class="grid grid-cols-12 gap-5 shadow-md")
+          div(v-for="item in PROJECT3" :key="item.id" class="col-span-3 bg-t-white rounded-md shadow-sm overflow-hidden lg:col-span-4 md:col-span-12")
+            div(class="p-4")
+              div(class="w-full")
+                img(:src="`${item.smallpic}`" class="w-full object-cover")
+              div(class="mt-4 mb-2 text-xl") {{ item.title }}
+              div(class="text-md text-t-text") {{ item.short}}
+            router-link(:to="`/project/${item.title}`" class="block w-full text-center tracking-wider bg-primary-500 py-4 text-t-white no-underline cursor-pointer hover:bg-primary-600") {{ $t('detail') }}
+      el-tab-pane(label="其他作品" name="fourth")
+        div 建構中...
 </template>
 
 <style lang='scss' scoped>

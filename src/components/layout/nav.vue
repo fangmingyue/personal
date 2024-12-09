@@ -33,10 +33,10 @@ const mouseLeave = (index: number) => {
 </script>
 
 <template lang='pug'>
-  #Nav
-    router-link(v-for="item,index in NAV" :key="index" :to="item.link" class="absolute right-[-107px] flex items-center cursor-pointer no-underline rounded-l-md transition-all overflow-hidden shadow-md shadow-black hover:right-0" :class="item.style" @mouseenter="mouseEnter(index)" @mouseleave="mouseLeave(index)")
-      Icon(:icon="item.icon" class="text-t-white text-xl h-[4rem] w-[2rem] p-1 bg-[hsla(0,0%,0%,.1)]" )
-      div(class="text-t-white tracking-[2px] ml-4 opacity-0" :class="{ 'opacity-100': hoverIndex == index }") {{$t(item.label)}}
+#Nav
+  router-link(v-for="item,index in NAV" :key="index" :to="item.link" class="absolute right-[-107px] flex items-center cursor-pointer no-underline rounded-l-md transition-all overflow-hidden shadow-md shadow-black hover:right-0" :class="item.style" @mouseenter="mouseEnter(index)" @mouseleave="mouseLeave(index)")
+    Icon(:icon="item.icon" class="text-t-white text-xl h-[4rem] w-[2rem] p-1 bg-[hsla(0,0%,0%,.1)]" )
+    div(class="text-t-white tracking-[2px] ml-4 opacity-0" :class="{ 'opacity-100': hoverIndex == index }") {{$t(item.label)}}
 </template>
 
 <style lang='scss' scoped>

@@ -24,11 +24,11 @@ import Nav from '@/components/layout/nav.vue';
 </script>
 
 <template lang="pug">
-  #App
-    Header
-    router-view
-    Footer
-    Nav
+#App
+  Header
+  router-view
+  Footer
+  Nav
 </template>
 
 <style lang="scss" scoped></style>
