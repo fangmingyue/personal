@@ -43,6 +43,8 @@ const useColor = (item) =>{
       return 'bg-[#007D46]'
     case 'javascript':
       return 'bg-[#fbd601]'
+    case 'scss':
+      return 'bg-[#BF4080]'
     case 'vue3':
       return 'bg-[#42b983]'
     case 'nuxt3':
@@ -75,7 +77,7 @@ const useColor = (item) =>{
           </ul>
           <div class="p-2 mt-8 flex justify-end">
             <router-link to="/project" class="no-underline bg-t-gray text-t-white py-2 px-4 rounded-full shadow-md">{{ $t('back-menu') }}</router-link>
-            <a :href="data.url" target="_blank" class="no-underline bg-primary-600 text-t-white py-2 px-4 rounded-full shadow-md ml-4">{{ $t('to-web') }}</a>
+            <a :href="data.isOpen ? data.url : null" target="_blank" class="no-underline bg-primary-600 text-t-white py-2 px-4 rounded-full shadow-md ml-4" :class="data.isOpen ? '' : 'bg-t-text'">{{ data.isOpen ? $t('to-web') : $t('deving') }}</a>
           </div>
         </div>
         <!-- right -->
