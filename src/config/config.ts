@@ -300,15 +300,18 @@ export const PROJECT2 = [
     content:'本會依據驗光人員法及人民團體法設立，名稱為臺中市驗光師公會。本會以發展驗光專業、協助政府建立完善醫療體系、提升全民健康，並促進會員權益為宗旨。本會以臺中市行政區域為組織區域，會址設於臺中市',
     smallpic:'/img/project/p2/tcoa.jpg',
     type:'p2',
+    isOpen: true,
     image:[
-      "https://picsum.photos/200/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
+      "/img/project/p2/tcoa/tcoa-1.jpg",
+      "/img/project/p2/tcoa/tcoa-2.jpg",
+      "/img/project/p2/tcoa/tcoa-3.jpg",
+      "/img/project/p2/tcoa/tcoa-4.jpg",
+      "/img/project/p2/tcoa/tcoa-5.jpg",
+      "/img/project/p2/tcoa/tcoa-6.jpg",
+      "/img/project/p2/tcoa/tcoa-7.jpg",
     ],
     skill:['html5','css3','javascript','nuxt3','element plus','vite','tailwind','pug'],
-    url:'https://www.super-house.club/'
+    url:'https://tcoa.org.tw/'
   },
   {
     id: 2,
@@ -317,15 +320,18 @@ export const PROJECT2 = [
     content:'台中驗光師公會後台管理系統',
     smallpic:'/img/project/p2/tcoa-bgm.jpg',
     type:'p2',
+    isOpen: true,
     image:[
-      "https://picsum.photos/200/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
+      "/img/project/p2/tcoa-bgm/tcoa-bgm-1.jpg",
+      "/img/project/p2/tcoa-bgm/tcoa-bgm-2.jpg",
+      "/img/project/p2/tcoa-bgm/tcoa-bgm-3.jpg",
+      "/img/project/p2/tcoa-bgm/tcoa-bgm-4.jpg",
+      "/img/project/p2/tcoa-bgm/tcoa-bgm-5.jpg",
+      "/img/project/p2/tcoa-bgm/tcoa-bgm-6.jpg",
+      "/img/project/p2/tcoa-bgm/tcoa-bgm-7.jpg",
     ],
     skill:['html5','css3','javascript','nuxt3','element plus','vite','tailwind','pug'],
-    url:'https://www.super-house.club/'
+    url:''
   },
   {
     id: 3,
@@ -334,50 +340,73 @@ export const PROJECT2 = [
     content:'運動是意志力的鍛鍊、是對身體的探險、是用｢心｣開拓社交圈的媒介，在Fly High Yoga，你能放下過去對未知體能訓練的不安與猜疑，在老師一步步帶領下對動作產生熟悉感，強化自身的生理和心理素質，重新建構並達到身心靈的平衡點。',
     smallpic:'/img/project/p2/yoga.jpg',
     type:'p2',
+    isOpen: true,
     image:[
-      "https://picsum.photos/200/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
+      "/img/project/p2/yoga/yoga-1.jpg",
+      "/img/project/p2/yoga/yoga-2.jpg",
+      "/img/project/p2/yoga/yoga-3.jpg",
+      "/img/project/p2/yoga/yoga-4.jpg",
+      "/img/project/p2/yoga/yoga-5.jpg",
+      "/img/project/p2/yoga/yoga-6.jpg",
     ],
-    skill:['vue3','tailwind','pug'],
-    url:'https://www.super-house.club/'
+    skill:['html5','css3','javascript','nuxt3','element plus','vite','tailwind','pug'],
+    url:'https://www.flyhighyoga.com.tw/'
   },
   {
     id: 4,
     title:'美家人力',
-    short:'this is short description',
-    content:'this is description',
-    smallpic:'/img/project/p2/superhouse.jpg',
+    short:'人力仲介網站',
+    content:'總經理於 1999 年投入人力仲介產業，秉持著成為企業人力資源優質的合作夥伴，2012年創立了美家人力資源股份有限公司（以下簡稱美家人力）。自此，美家人力秉持著「創新」、「專業」、「人本」的理念，提供在同業間獨樹一格的服務。在國外，與越南、印尼、菲律賓及泰國當地訓練中心合作，依照移工所需要的專業知識、工作技能、生活知能…等多個面向，實施教育訓練及考核，確保優質人才；在台灣，建立移工人力銀行提供移工和雇主間的專業媒合平台，協助移工透過平台找到合適的工作，也讓雇主在尋找人才上能更加便利。',
+    smallpic:'/img/project/p2/maygod.jpg',
     type:'p2',
+    isOpen: true,
     image:[
-      "https://picsum.photos/200/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
+      "/img/project/p2/maygod/maygod-1.jpg",
+      "/img/project/p2/maygod/maygod-2.jpg",
+      "/img/project/p2/maygod/maygod-3.jpg",
+      "/img/project/p2/maygod/maygod-4.jpg",
+      "/img/project/p2/maygod/maygod-5.jpg",
+      "/img/project/p2/maygod/maygod-6.jpg",
     ],
-    skill:['vue3','tailwind','pug'],
+    skill:['html5','css3','javascript','nuxt3','element plus','vite','tailwind','pug'],
     url:'https://may-god.com/'
   },
-  {
-    id: 5,
-    title:'奇吉科技',
-    short:'this is short description',
-    content:'this is description',
-    smallpic:'/img/project/p2/superhouse.jpg',
-    type:'p2',
-    image:[
-      "https://picsum.photos/200/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-    ],
-    skill:['vue3','tailwind','pug'],
-    url:'https://pltf.org.tw/'
-  }  
+  // {
+  //   id: 5,
+  //   title:'奇吉科技',
+  //   short:'this is short description',
+  //   content:'this is description',
+  //   smallpic:'/img/project/p2/superhouse.jpg',
+  //   type:'p2',
+  //   isOpen: true,
+  //   image:[
+  //     "https://picsum.photos/200/200",
+  //     "https://picsum.photos/300/200",
+  //     "https://picsum.photos/300/200",
+  //     "https://picsum.photos/300/200",
+  //     "https://picsum.photos/300/200",
+  //   ],
+  //   skill:['vue3','tailwind','pug'],
+  //   url:'https://pltf.org.tw/'
+  // },
+  // {
+  //   id: 6,
+  //   title:'代碼開發庫',
+  //   short:'快速產出網頁所需的代碼',
+  //   content:'快速產出網頁所需的代碼',
+  //   smallpic:'/img/project/p2/superhouse.jpg',
+  //   type:'p2',
+  //   isOpen: true,
+  //   image:[
+  //     "https://picsum.photos/200/200",
+  //     "https://picsum.photos/300/200",
+  //     "https://picsum.photos/300/200",
+  //     "https://picsum.photos/300/200",
+  //     "https://picsum.photos/300/200",
+  //   ],
+  //   skill:['vue3','tailwind','pug'],
+  //   url:'https://pltf.org.tw/'
+  // }    
 ]
 
 export const PROJECT3 = [
@@ -388,6 +417,7 @@ export const PROJECT3 = [
     content:'鉅城遊戲平台經營亞太區線上遊戲平台領域多年，擁有堅強的自主研發團隊、客戶服務團隊，提供全面可靠信任的網路遊戲平台',
     smallpic:'/img/project/p3/ofa177.jpg',
     type:'p3',
+    isOpen: true,
     image:[
       "/img/project/p3/ofa77/ofa77-1.jpg",
       "/img/project/p3/ofa77/ofa77-2.jpg",
@@ -406,6 +436,7 @@ export const PROJECT3 = [
     content:'LT遊戲平台經營亞太區線上遊戲平台領域多年，擁有堅強的自主研發團隊、客戶服務團隊，提供全面可靠信任的網路遊戲平台',
     smallpic:'/img/project/p3/lt1688.jpg',
     type:'p3',
+    isOpen: true,
     image:[
       "https://picsum.photos/200/200",
       "https://picsum.photos/300/200",
@@ -423,6 +454,7 @@ export const PROJECT3 = [
     content:'帝遊遊戲平台經營亞太區線上遊戲平台領域多年，擁有堅強的自主研發團隊、客戶服務團隊，提供全面可靠信任的網路遊戲平台',
     smallpic:'/img/project/p3/dgamings.jpg',
     type:'p3',
+    isOpen: true,
     image:[
       "https://picsum.photos/200/200",
       "https://picsum.photos/300/200",
@@ -440,6 +472,7 @@ export const PROJECT3 = [
     content:'OC遊戲平台經營亞太區線上遊戲平台領域多年，擁有堅強的自主研發團隊、客戶服務團隊，提供全面可靠信任的網路遊戲平台',
     smallpic:'/img/project/p3/oc178.jpg',
     type:'p3',
+    isOpen: true,
     image:[
       "https://picsum.photos/200/200",
       "https://picsum.photos/300/200",
@@ -457,6 +490,7 @@ export const PROJECT3 = [
     content:'朕天下遊戲平台經營亞太區線上遊戲平台領域多年，擁有堅強的自主研發團隊、客戶服務團隊，提供全面可靠信任的網路遊戲平台',
     smallpic:'/img/project/p3/mw1688.jpg',
     type:'p3',
+    isOpen: true,
     image:[
       "https://picsum.photos/200/200",
       "https://picsum.photos/300/200",
@@ -474,6 +508,7 @@ export const PROJECT3 = [
     content:'0857遊戲平台經營亞太區線上遊戲平台領域多年，擁有堅強的自主研發團隊、客戶服務團隊，提供全面可靠信任的網路遊戲平台',
     smallpic:'/img/project/p3/0857.jpg',
     type:'p3',
+    isOpen: true,
     image:[
       "https://picsum.photos/200/200",
       "https://picsum.photos/300/200",
@@ -491,6 +526,7 @@ export const PROJECT3 = [
     content:'8方遊戲平台經營亞太區線上遊戲平台領域多年，擁有堅強的自主研發團隊、客戶服務團隊，提供全面可靠信任的網路遊戲平台',
     smallpic:'/img/project/p3/meta178.jpg',
     type:'p3',
+    isOpen: true,
     image:[
       "https://picsum.photos/200/200",
       "https://picsum.photos/300/200",
@@ -508,6 +544,7 @@ export const PROJECT3 = [
     content:'富馬遊戲平台經營亞太區線上遊戲平台領域多年，擁有堅強的自主研發團隊、客戶服務團隊，提供全面可靠信任的網路遊戲平台',
     smallpic:'/img/project/p3/fm888.jpg',
     type:'p3',
+    isOpen: true,
     image:[
       "https://picsum.photos/200/200",
       "https://picsum.photos/300/200",
@@ -525,6 +562,7 @@ export const PROJECT3 = [
     content:'RM遊戲平台經營亞太區線上遊戲平台領域多年，擁有堅強的自主研發團隊、客戶服務團隊，提供全面可靠信任的網路遊戲平台',
     smallpic:'/img/project/p3/rm666.jpg',
     type:'p3',
+    isOpen: true,
     image:[
       "https://picsum.photos/200/200",
       "https://picsum.photos/300/200",
@@ -542,6 +580,7 @@ export const PROJECT3 = [
     content:'滿天星遊戲平台經營亞太區線上遊戲平台領域多年，擁有堅強的自主研發團隊、客戶服務團隊，提供全面可靠信任的網路遊戲平台',
     smallpic:'/img/project/p3/star1688.jpg',
     type:'p3',
+    isOpen: true,
     image:[
       "https://picsum.photos/200/200",
       "https://picsum.photos/300/200",
@@ -559,6 +598,7 @@ export const PROJECT3 = [
     content:'雄厚遊戲平台經營亞太區線上遊戲平台領域多年，擁有堅強的自主研發團隊、客戶服務團隊，提供全面可靠信任的網路遊戲平台',
     smallpic:'/img/project/p3/ofa918.jpg',
     type:'p3',
+    isOpen: true,
     image:[
       "https://picsum.photos/200/200",
       "https://picsum.photos/300/200",
