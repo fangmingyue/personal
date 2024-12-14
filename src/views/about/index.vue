@@ -66,8 +66,11 @@ import { Icon } from '@iconify/vue';
                 Icon(icon="material-symbols:loupe-outline-sharp")
                 span(class="ml-2") {{$t('base6')}}
               li(class="flex items-center ")
-                Icon(icon="material-symbols:loupe-outline-sharp")
+                Icon(icon="material-symbols:phonelink-ring-outline-rounded")
                 span(class="ml-2") {{$t('base7')}}
+              li(class="flex items-center ")
+                Icon(icon="material-symbols:mark-email-read-outline")
+                span(class="ml-2") {{$t('base8')}}
         div(class="row-span-1 bg-t-white rounded-md p-4")
           div(class="font-semibold text-xl") {{ $t('exp') }}
           ul(class="mt-8 leading-6 text-t-text")

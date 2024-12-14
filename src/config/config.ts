@@ -225,7 +225,7 @@ export const PROJECT1 = [
   {
     id: 4,
     title:'好日和',
-    short:'長照形象網站',
+    short:'好日和長照形象網站',
     content:'超高齡與少子化社會即將到來，扶老比急遽上升，長期照顧將是迫切面臨的課題。在職照顧者不僅要面對工作，還需兼顧長輩、幼兒照顧等多重責任，需尋求專業照顧的支援以紓解照顧的壓力，維持良好的生活品質。',
     smallpic:'/img/project/p1/gooddaycare.jpg',
     type:'p1',
@@ -262,7 +262,7 @@ export const PROJECT1 = [
   {
     id: 6,
     title:'雅典娜整合行銷',
-    short:'雅典娜整合行銷刑象官網',
+    short:'雅典娜整合行銷形象官網',
     content:'雅典娜數位整合行銷，擁有從行銷到網頁製作一條龍的完整服務，並且在商模建置與行銷企劃中，擁有比其他行銷公司更敏銳的嗅覺，在SEO搜尋引擎優化這個區塊，擁有過人的操作熟練度，在各個行銷佈局與口碑行銷的操作上別於市場的執行手法，並在廣告代操的漏斗上別於其他行銷公司上架構。',
     smallpic:'/img/project/p1/athenaads.jpg',
     type:'p1',
@@ -320,7 +320,7 @@ export const PROJECT2 = [
     content:'台中驗光師公會後台管理系統',
     smallpic:'/img/project/p2/tcoa-bgm.jpg',
     type:'p2',
-    isOpen: true,
+    isOpen: false,
     image:[
       "/img/project/p2/tcoa-bgm/tcoa-bgm-1.jpg",
       "/img/project/p2/tcoa-bgm/tcoa-bgm-2.jpg",
@@ -371,6 +371,24 @@ export const PROJECT2 = [
     skill:['html5','css3','javascript','nuxt3','element plus','vite','tailwind','pug'],
     url:'https://may-god.com/'
   },
+    {
+    id: 5,
+    title:'Library代碼庫',
+    short:'客制快速產出代碼庫',
+    content:'為了日常快速可以產出基本的樣式的代碼庫，並且統一協作人員的寫作統一風格。',
+    smallpic:'/img/project/p2/library.jpg',
+    type:'p2',
+    isOpen: false,
+    image:[
+      "/img/project/p2/library/library-1.jpg",
+      "/img/project/p2/library/library-2.jpg",
+      "/img/project/p2/library/library-3.jpg",
+      "/img/project/p2/library/library-4.jpg",
+      "/img/project/p2/library/library-5.jpg",
+    ],
+    skill:['html5','css3','javascript','vue3','element plus','vite','vitepress','tailwind','pug'],
+    url:''
+  },
   // {
   //   id: 5,
   //   title:'奇吉科技',
@@ -398,7 +416,7 @@ export const PROJECT2 = [
   //   type:'p2',
   //   isOpen: true,
   //   image:[
-  //     "https://picsum.photos/200/200",
+  //     "",
   //     "https://picsum.photos/300/200",
   //     "https://picsum.photos/300/200",
   //     "https://picsum.photos/300/200",
@@ -438,11 +456,11 @@ export const PROJECT3 = [
     type:'p3',
     isOpen: true,
     image:[
-      "https://picsum.photos/200/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
+      "/img/project/p3/lt1688/lt-1.jpg",
+      "/img/project/p3/lt1688/lt-2.jpg",
+      "/img/project/p3/lt1688/lt-3.jpg",
+      "/img/project/p3/lt1688/lt-4.jpg",
+      "/img/project/p3/lt1688/lt-5.jpg",
     ],
     skill:['html5','css3','javascript','vite','tailwind'],
     url:'https://www.lt1688.net/'
@@ -456,11 +474,11 @@ export const PROJECT3 = [
     type:'p3',
     isOpen: true,
     image:[
-      "https://picsum.photos/200/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
+      "/img/project/p3/dgamings/dgamings-1.jpg",
+      "/img/project/p3/dgamings/dgamings-2.jpg",
+      "/img/project/p3/dgamings/dgamings-3.jpg",
+      "/img/project/p3/dgamings/dgamings-4.jpg",
+      "/img/project/p3/dgamings/dgamings-5.jpg",
     ],
     skill:['html5','css3','javascript','vite','tailwind'],
     url:'https://www.dgamings.com/'
@@ -474,11 +492,7 @@ export const PROJECT3 = [
     type:'p3',
     isOpen: true,
     image:[
-      "https://picsum.photos/200/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
+
     ],
     skill:['html5','css3','javascript','vite','tailwind'],
     url:'https://www.oc178.net/'
@@ -492,11 +506,7 @@ export const PROJECT3 = [
     type:'p3',
     isOpen: true,
     image:[
-      "https://picsum.photos/200/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
+
     ],
     skill:['html5','css3','javascript','vite','tailwind'],
     url:'https://www.mw1688.net/'
@@ -510,11 +520,7 @@ export const PROJECT3 = [
     type:'p3',
     isOpen: true,
     image:[
-      "https://picsum.photos/200/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
+
     ],
     skill:['html5','css3','javascript','vite','tailwind'],
     url:'https://www.0857.games/'
@@ -528,11 +534,7 @@ export const PROJECT3 = [
     type:'p3',
     isOpen: true,
     image:[
-      "https://picsum.photos/200/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
+
     ],
     skill:['html5','css3','javascript','vite','tailwind'],
     url:'https://www.meta178.com/'
@@ -546,11 +548,7 @@ export const PROJECT3 = [
     type:'p3',
     isOpen: true,
     image:[
-      "https://picsum.photos/200/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
+
     ],
     skill:['html5','css3','javascript','vite','tailwind'],
     url:'https://www.fm888.net/'
@@ -564,11 +562,7 @@ export const PROJECT3 = [
     type:'p3',
     isOpen: true,
     image:[
-      "https://picsum.photos/200/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
+
     ],
     skill:['html5','css3','javascript','vite','tailwind'],
     url:'https://www.rm666.co/'
@@ -582,11 +576,7 @@ export const PROJECT3 = [
     type:'p3',
     isOpen: true,
     image:[
-      "https://picsum.photos/200/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
+
     ],
     skill:['html5','css3','javascript','vite','tailwind'],
     url:'https://www.star1688.tw/'
@@ -600,11 +590,7 @@ export const PROJECT3 = [
     type:'p3',
     isOpen: true,
     image:[
-      "https://picsum.photos/200/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
-      "https://picsum.photos/300/200",
+
     ],
     skill:['html5','css3','javascript','vite','tailwind'],
     url:'https://www.918ofa.net/'

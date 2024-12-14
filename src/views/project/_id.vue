@@ -1,5 +1,6 @@
 <script setup>
 import { onMounted, ref, computed } from 'vue';
+import { ElMessage, ElMessageBox } from 'element-plus'
 import { useRoute } from 'vue-router'
 import { PROJECT1, PROJECT2, PROJECT3 } from '@/config/config';
 
@@ -14,6 +15,8 @@ const images = ref([
   "https://picsum.photos/300/200",
   "https://picsum.photos/300/200",
 ]);
+
+const password = 'Admin123'
 
 const name = computed(() => route.params.id || "");
 const type = computed(() => route.query.type || "");
@@ -57,10 +60,51 @@ const useColor = (item) =>{
       return 'bg-[#419fff]'
     case 'vite':
       return 'bg-[#9572ff]'
+    case 'vitepress':
+      return 'bg-[#9B8AFF]'
     case 'pinia':
       return 'bg-[#ffca44]'
   }
 }
+
+// 開啟密碼輸入
+const openPassword = () => {
+  const correctPassword = password; // 正确的密码
+  ElMessageBox.prompt('*索取密碼請聯繫站長', '請輸入密碼', {
+    confirmButtonText: '確認',
+    cancelButtonText: '取消',
+    inputType: 'password',
+  })
+    .then(({ value }) => {
+      if (!value) {
+        ElMessage({
+          type: 'error',
+          message: '密碼不能為空',
+        });
+        return;
+      }
+      if (value !== correctPassword) {
+        ElMessage({
+          type: 'error',
+          message: '密碼錯誤，請重新輸入',
+        });
+        return;
+      }
+      ElMessage({
+        type: 'success',
+        message: `解鎖成功,跳轉中...`,
+      });
+      setTimeout(() => {
+        window.open(data.value.url, '_blank');
+      },1000)
+    })
+    .catch(() => {
+      ElMessage({
+        type: 'info',
+        message: '取消解鎖',
+      });
+    });
+};
 
 </script>
 
@@ -75,9 +119,13 @@ const useColor = (item) =>{
           <ul class="mt-2 px-2 py-4 flex items-center flex-wrap shadow-sm">
             <li v-for="item in data.skill" :key="item" class="mr-2 mt-2 text-t-white py-1 px-2 rounded-md shadow-md" :class="useColor(item)">{{ item }}</li>
           </ul>
+          <div v-if="type === 'p3'">
+            <el-alert title="此網站為特殊網站,若要觀看網站架構請至關於站長頁面聯繫索取密碼" type="warning"/>
+          </div>
           <div class="p-2 mt-8 flex justify-end">
             <router-link to="/project" class="no-underline bg-t-gray text-t-white py-2 px-4 rounded-full shadow-md">{{ $t('back-menu') }}</router-link>
-            <a :href="data.isOpen ? data.url : null" target="_blank" class="no-underline bg-primary-600 text-t-white py-2 px-4 rounded-full shadow-md ml-4" :class="data.isOpen ? '' : 'bg-t-text'">{{ data.isOpen ? $t('to-web') : $t('deving') }}</a>
+            <a v-if="type === 'p1' || type === 'p2'" :href="data.isOpen ? data.url : null" target="_blank" class="no-underline bg-primary-600 text-t-white py-2 px-4 rounded-full shadow-md ml-4" :class="data.isOpen ? '' : 'bg-t-text'">{{ data.isOpen ? $t('to-web') : $t('deving') }}</a>
+            <a v-if="type === 'p3'" class="no-underline bg-primary-600 text-t-white py-2 px-4 rounded-full shadow-md ml-4 cursor-pointer" :class="data.isOpen ? '' : 'bg-t-text'" @click="openPassword">{{ data.isOpen ? $t('to-web') : $t('deving') }}</a>
           </div>
         </div>
         <!-- right -->
