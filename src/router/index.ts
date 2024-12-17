@@ -6,12 +6,7 @@ const router = createRouter({
   routes: [
     {
       path: "/",
-      name: "index",
-      component: HomeView,
-    },
-    {
-      path: '/about',
-      name: 'about',
+      name: "about",
       component: () => import('../views/about/index.vue'),
     },
     {
@@ -29,6 +24,11 @@ const router = createRouter({
       path: '/cooperate',
       name: 'cooperate',
       component: () => import('../views/cooperate/index.vue'),
+    },
+    {
+      path: '/download',
+      name: 'download',
+      component: () => import('../views/download/index.vue'),
     },
   ],
 });

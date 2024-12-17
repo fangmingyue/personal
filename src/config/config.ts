@@ -16,30 +16,30 @@ export const LANGUAGE = [
 export const NAV = [
   {
     id:0,
-    label: "home",
-    icon:"mdi-light:home",
+    label: "about",
+    icon:"material-symbols:person-outline",
     link:'/',
     style:'bg-primary-500 top-0  w-[140px] z-50'
   },
   {
     id:1,
-    label: "about",
-    icon:"material-symbols:person-outline",
-    link:'/about',
+    label: "project",
+    icon:"eos-icons:project-outlined",
+    link:'/project',
     style:'bg-primary-600 top-[32px] w-[172px] z-40'
   },
   {
     id:2,
-    label: "project",
-    icon:"eos-icons:project-outlined",
-    link:'/project',
+    label: "cooperate",
+    icon:"tdesign:cooperate",
+    link:'/cooperate',
     style:'bg-primary-700 top-[64px] w-[204px] z-30'
   },
   {
     id:3,
-    label: "cooperate",
-    icon:"tdesign:cooperate",
-    link:'/cooperate',
+    label: "download",
+    icon:"material-symbols:shopping-cart-outline-sharp",
+    link:'/download',
     style:'bg-primary-800 top-[96px] w-[236px] z-20'
   },
 ]

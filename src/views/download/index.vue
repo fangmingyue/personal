@@ -21,12 +21,14 @@
 </script>
 
 <template lang="pug">
-#Home
+#Download
+  div(class="h-full flex justify-center mt-20")
+    img(src="/img/making.png" class="w-[40%] lg:w-full")
 
 </template> 
 
 <style lang="scss" scoped>
-#Home{
+#Download{
   padding:20px;
 }
 </style>
